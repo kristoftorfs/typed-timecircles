@@ -1,0 +1,7 @@
+{
+  "name": "typed-timecircles",
+  "private": true,
+  "devDependencies": {
+    "timecircles": "1.5.3"
+  }
+}
