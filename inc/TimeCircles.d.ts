@@ -4,18 +4,25 @@ interface TimeCirclesTimeOptions {
     color?: string;
 }
 
+interface TimeCirclesTimes {
+    Days?: TimeCirclesTimeOptions;
+    Hours?: TimeCirclesTimeOptions;
+    Minutes?: TimeCirclesTimeOptions;
+    Seconds?: TimeCirclesTimeOptions;
+}
+
 interface TimeCirclesOptions {
     start?: boolean;
     animation?: "smooth" | "ticks";
     count_past_zero?: boolean;
-    circle_bg_color?: "#60686F";
+    circle_bg_color?: string;
     use_background?: boolean;
     fg_width?: number;
     bg_width?: number;
     total_duration?: "Auto" | "Years" | "Months" | "Days" | "Hours" | "Minutes" | number;
     direction?: "Clockwise" | "Counter-clockwise" | "Both";
     start_angle?: number;
-    time?: TimeCirclesTimeOptions;
+    time?: TimeCirclesTimes;
 }
 
 interface TimeCircles {
