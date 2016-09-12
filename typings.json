@@ -1,7 +1,9 @@
 {
   "name": "timecircles",
   "main": "inc/TimeCircles.d.ts",
+  "typings": "inc/TimeCircles.d.ts",
   "homepage": "http://git.wimbarelds.nl/TimeCircles/",
+  "global": true,
   "version": "1.5.3",
   "globalDevDependencies": {
     "node": "registry:env/node#6.0.0+20160902022231"
